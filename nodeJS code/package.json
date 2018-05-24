@@ -1,0 +1,17 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "this will be a basic twitterbot, learning to use api and node",
+  "main": "code.js",
+  "scripts": {
+    "start": "node code.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "serialport": "^6.1.1",
+    "twit": "^2.2.9"
+  }
+}
