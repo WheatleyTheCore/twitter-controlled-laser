@@ -19,7 +19,7 @@ stream.on('tweet', function (eventMsg){
     let txt = eventMsg.text;
     let from = eventMsg.user.screen_name;
 
-    if (replyTo == "TheSecondGlados") {
+    if (replyTo == "(put your account here)") {
         console.log(txt);
         tweet("@" + from + " Thank You!");
         port.write(txt);
