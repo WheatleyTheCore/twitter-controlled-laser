@@ -1,6 +1,3 @@
-/*
-
-*/
 #include <Servo.h>
 
 Servo xSer;
@@ -8,13 +5,16 @@ Servo ySer;
 String serialData;
 
 void setup() {
-  Serial.begin(9600);
-  ySer.attach(8);
-  xSer.attach(9);
-  xSer.write(40);
+  Serial.begin(57600);
+  ySer.attach(12);
+  xSer.attach(13);
+  xSer.write(90);
+  ySer.write(90);
+  Serial.setTimeout(5);
 }
 
 void loop() {
+  
 }
 
 void serialEvent(){
