@@ -1,5 +1,5 @@
 # twitter-controlled-laser
-A twitterbot that will send an arduino xy coordinates that it recieves.
+A twitterbot that sends an Arduino xy coordinates that it recieves from tweets. This was a project I undertook in Middle School.
 
 This was built using an Adafruit Featherboard as a controller, with a NodeJS application sending it coordinates it gets from twitter.
 
